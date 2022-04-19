@@ -1,7 +1,7 @@
 function init()
 {
     var canvas = document.getElementById('mycanvas');
-    W = H =  canvas.width = canvas.height = 1000;
+    W = H =  canvas.width = canvas.height = 100;
     pen = canvas.getContext('2d');
     cs = 67; // cells size is 50
     game_over = false;
