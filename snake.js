@@ -162,7 +162,7 @@ function gameloop()
     if(game_over == true)
     {
         clearInterval(f);
-        alert("Mar gya lawde");
+        alert("Game Over");
         return;
     }
     draw();
